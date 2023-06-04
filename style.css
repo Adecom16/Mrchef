@@ -1,0 +1,804 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap');
+body{
+    background-color: antiquewhite;
+    font-family: 'Ubuntu';
+}
+.container{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo i{
+    font-size: 30px;
+    padding: 11px 14px;
+    background-color: gold;
+    border-radius: 100%;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+li a{
+    margin: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+}
+li a:hover{
+    color: rgb(161, 138, 4);
+}
+.shopping{
+    font-size: 25px;
+    color: gold;
+}
+.res{
+    padding: 12px 15px;
+    border-radius: 50px;
+    background-color: gold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 250px;
+}
+.banner{
+    display: flex;
+}
+.header h1{
+    font-size: 70px;
+    position: relative;
+    top: 80px;
+    left: 60px;
+}
+.header p{
+    position: relative;
+    top: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 60px;
+    font-size: 25px;
+    line-height: 30px;
+}
+.bttn{
+    /* display: flex; */
+    /* margin: 12px; */
+    position: relative;
+    left: 60px;
+    top: 80px;
+    /* padding: 15px 17px; */
+    /* background-color: red; */
+}
+.btn1{
+    padding: 13px 25px;
+    margin: 15px;
+    font-size: 15px;
+    font-family: 'Ubuntu';
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: gold;
+    color: rgb(0, 0, 0);
+    /* font-weight: bold; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.btn1:hover{
+    background-color: white;
+    border: 1px solid gold;
+}
+.btn{
+    border: 1px solid gold;
+    padding: 13px 25px;
+    border-radius: 15px;
+    font-family: 'Ubuntu';
+    background-color: transparent;
+}
+.img{
+    margin-right: 50px;
+}
+
+
+.img img{
+    width: 100%;
+    height: 100%;
+    /* margin-right: 60px; */
+}
+
+.step1{
+    /* position: relative; */
+    margin-top: 60px;
+    /* padding: 20px 10px; */
+  
+    background-color: rgb(255, 240, 220);
+    margin-left: 140px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+}
+
+.step2{
+    /* padding: 5px 5px; */
+    background-color: transparent;
+      border: 3px solid gainsboro;
+      border-radius: 100%;
+      margin-right: 10px; 
+}
+
+.step3{
+    /* padding: 20px 3px; */
+    /* width: 50%;
+    height: 50%; */
+    justify-content: space-around;
+    background-color: transparent;
+    border: 3px solid gainsboro;
+    border-radius: 100%;
+}
+.list{
+    position: absolute;
+    margin-top: 220px;
+    padding-left: 1300px;
+}
+.lista{
+    list-style-type: none;
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    padding: 8px 19px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+.listb{
+    list-style-type: none;
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    padding: 8px 19px;
+    margin: 6px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.listc{
+    list-style-type: none;
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    margin: 6px;
+    padding: 8px 19px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.listd{
+    list-style-type: none;
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    margin: 6px;
+    padding: 8px 19px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.liste{
+    list-style-type: none;
+    margin: 6px;
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    padding: 8px 19px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+.popular{
+    width: 100%;
+    height: 70vh;
+    /* background-color: white; */
+}
+.foodhead{
+    display: flex;
+}
+.iii{
+    padding-left: 1050px;
+    padding-top: 72px;
+}
+#i1{
+    padding: 15px 17px;
+    border: 2px solid gold;
+    font-size: 25px;
+    border-radius: 50%;
+}
+#i1:hover{
+    background-color: gold;
+    border: 2px solid white;
+}
+#i2{
+    padding: 15px 17px;
+    border: 2px solid gold;
+    font-size: 25px;
+    border-radius: 50%;
+}
+#i2:hover{
+    background-color: gold;
+    border: 2px solid white;
+}
+.popular h1{
+    font-size: 50px;
+    font-family: 'Ubuntu';
+    position: relative;
+    top: 35px;
+}
+.alldiv{
+    display: flex;
+}
+.div1{
+    margin-top: 50px;
+    margin-left: 60px;
+    background-color: rgb(255, 255, 255);
+    width: 22%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    height: 65vh;
+}
+.div1 img{
+    padding: 12px;
+    width: 80%;
+    /* height: 50%; */
+    padding-left: 5%;
+}
+.div1 h3{
+    font-size: 30px;
+    padding-left: 120px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(97, 3, 3);
+}
+.icon{
+    color: gold;
+    padding-left: 105px;
+    /* display: inline-block; */
+}
+.div1 p{
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+/* 2nd div */
+
+
+
+.div2{
+    margin-top: 50px;
+    margin-left: 60px;
+    background-color: rgb(255, 255, 255);
+    width: 22%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    height: 65vh;
+}
+.div2 img{
+    width: 90%;
+    /* height: 50%; */
+    padding-left: 5%;
+}
+.div2 h3{
+    font-size: 30px;
+    padding-left: 87px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(97, 3, 3);
+}
+.icon{
+    color: gold;
+    padding-left: 100px;
+    /* display: inline-block; */
+}
+.div2 p{
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* 3rd div */
+.div3{
+    margin-top: 50px;
+    margin-left: 60px;
+    background-color: rgb(255, 255, 255);
+    width: 22%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    height: 65vh;
+}
+.div3 img{
+    padding-top: 50px;
+    width: 80%;
+    /* height: 50%; */
+    padding-left: 10%;
+}
+.div3 h3{
+    font-size: 30px;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(97, 3, 3);
+}
+.icon{
+    color: gold;
+    /* margin-left: 85px; */
+}
+.div3 p{
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* 4th div */
+
+.div4{
+    margin-top: 50px;
+    margin-left: 60px;
+    background-color: rgb(255, 255, 255);
+    width: 22%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    height: 65vh;
+}
+.div4 img{
+    width: 70%;
+    padding-top: 30px;
+    /* height: 50%; */
+    padding-left: 13%;
+}
+.div4 h3{
+    font-size: 30px;
+    padding-left: 100px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(97, 3, 3);
+}
+.icon{
+    color: gold;
+    padding-left: 112px;
+    /* display: inline-block; */
+}
+.div4 p{
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.foot{
+    display: flex;
+}
+
+.foot p{
+    padding-left: 24px;
+    font-size: 25px;
+    color: rgb(97, 3, 3);
+    font-weight: bold;
+    padding-top: 0px;
+}
+.btn3{
+    height: 30px;
+    justify-content: center;
+    padding-top: 11px;
+    width: 30%;
+    color: rgb(97, 3, 3);
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid rgb(241, 207, 13);
+    border-radius: 20px;
+    background-color: transparent;
+    margin-left: 90px;
+    color: black;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.btn3:hover{
+    background-color: gold;
+    border: 1px solid whitesmoke;
+}
+.deli{
+    width: 100%;
+    height: 70vh;
+    display: flex
+}
+
+.immg img{
+    width: 120%;
+    padding-top: 130px;
+    padding-left: 120px;
+}
+.contana{
+    padding-left: 350px;
+    padding-top: 50px;
+}
+.contana h2{
+    font-size: 50px;
+}
+.contana p{
+    padding-top: 2px;
+    font-size: 15px;
+    /* letter-spacing: 2px; */
+    /* line-height: 19px; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contana i{
+    display: block;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+.van{
+    display: flex;
+}
+.secondicon{
+    padding-left: 50px;
+}
+.about{
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 15px 23px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: gold
+}
+.about:hover{
+    background-color: white;
+    border: 2px solid gold;
+}
+
+.regular{
+    height: 100vh;
+}
+.regular h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    justify-content: center;
+}
+.regular ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.food-list{
+    margin: 40px;
+    position: relative;
+    padding: 12px 30px;
+    background-color: transparent;
+    border: 2px solid gold;
+    border-radius: 50px;
+    left: 40px;
+}
+.dinner{
+    width: 100%;
+    height: 70vh;
+    display: flex
+}
+.tet h1{
+    font-size: 45px;
+    padding-left: 110px;
+    padding-top: 100px;
+}
+.tet p{
+    font-size: 15px;
+    padding-left: 110px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+}
+.make{
+    margin-top: 30px;
+    padding: 15px 20px;
+    background-color: transparent;
+    margin-left: 110px;
+    background-color: gold;
+    border-radius: 50px;
+    border: 1px solid white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.make:hover{
+    background-color: white;
+}
+.ima{
+    margin-left: 350px;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    background-color: pink;
+    margin-top: 150px;
+}
+.ima img{
+    width: 170%;
+}
+
+.customer{
+    width: 100%;
+    height: 80vh;
+}
+.customer h1{
+    font-size: 45px;
+    padding-top: 55px;
+    padding-left: 50px;
+}
+.cona{
+    display: flex;
+}
+.cus1{
+    /* padding: 10px 55px; */
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 330px;
+    background-color: rgb(252, 215, 221);
+    border-radius: 30px;
+}
+.cus1 p{
+    font-size: 17px;
+    padding-top: 30px;
+    padding-left: 27px;
+}
+
+.cus1 img{
+    padding-top: 10px;
+    border-radius: 50%;
+    margin-left: 27px;
+}
+
+.cus1 h3{
+    font-size: 30px;
+    margin-top: 12px;
+    /* width: 10px; */
+    font-weight: bold;
+    color: rgb(90, 9, 9);
+    font-family: 'Ubuntu';
+    margin-left: 11px;
+}
+.chef{
+    width: 100%;
+    height: 100vh;
+}
+.chef h1{
+    padding-top: 70px;
+    font-size: 50px;
+    padding-left: 20px;
+    font-family: 'Ubuntu';
+}
+.chefi{
+    display: flex;
+}
+.chef1{
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.chef1 img{
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 20px 70px;
+    background-color: white;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.chef1 h4{
+    padding-left: 50px;
+    color: rgb(97, 5, 5);
+    font-size: 29px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.puppo{
+    display: flex;
+}
+.iiii{
+    padding-left: 1050px;
+    padding-top: 150px;
+}
+
+.delicious{
+    height: 80vh;
+    width: 100%;
+}
+.vur{
+    display: flex;
+    width: 1300px;
+    height: 500px;
+    margin-left: 120px;
+    margin-top: 140px;
+    border-radius: 50px;
+    background-color: rgb(255, 229, 196);
+}
+.staga h1{
+    position: relative;
+    font-size: 50px;
+    font-family: 'Ubuntu';
+   left: 80px;
+   top: 50px;
+}
+.staga p{
+    position: relative;
+    left: 80px;
+    top: 50px;
+}
+.staga img{
+    position: relative;
+    top: 40px;
+    left: 80px;
+    width: 50%;
+}
+.qoute img{
+    position: relative;
+    width: 130%;
+    left: 200px;
+    top: 100px;
+}
+.li{
+    width: 1000px;
+    height: 100px;
+    /* padding-top: 1000px; */
+    margin-left: 200px;
+    border-bottom: 2px solid black;
+}
+.foot{
+    width: 100%;
+    height:60vh;
+}
+.footer{
+    display: flex;
+    margin-left: 150px;
+}
+.ft1 h4{
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 100px;
+
+}
+
+.ft1 input{
+    border: none;
+    background-color: transparent;
+    width: 200px;
+    padding: 20px;
+    padding-top: 5px;
+        outline: none;
+    border-bottom: 2px solid rgb(31, 29, 29);
+}
+input::placeholder{
+    font-size: 15px;
+    margin-left: 20px;
+}
+#i3{
+    padding: 10px 12px;
+    border: 2px solid gold;
+    font-size: 25px;
+    border-radius: 50%;
+}
+#i3:hover{
+    background-color: gold;
+}
+
+#bro{
+ margin: 8px;
+ margin-top: 15px;
+     padding: 10px 12px;
+         border: 2px solid gold;
+         color: rgb(83, 6, 6);
+    border-radius: 50%;
+}
+#bro:hover{
+    background-color: gold;
+    border: 1px solid white;
+}
+.ft2{
+    padding-top: 80px;
+    position: relative;
+    left: 90px;
+}
+.ft2 h5{
+    font-size: 25px;
+    position: relative;
+    left: 80px;
+}
+.ft2 p{
+    font-size: 19px;
+    color: black;
+    font-weight: normal;
+    line-height: 20px;
+    position: relative;
+    left: 55px;
+}
+.ft3{
+    padding-top: 80px;
+    position: relative;
+    left: 180px;
+}
+.ft3 h5{
+    font-size: 25px;
+    position: relative;
+    left: 90px;
+}
+.ft3 p{
+    font-size: 19px;
+    color: black;
+    font-weight: normal;
+    line-height: 20px;
+    position: relative;
+    left: 65px;
+}
+.ft4{
+    padding-top: 80px;
+    position: relative;
+    left: 260px;
+}
+.ft4 h5{
+    font-size: 25px;
+    position: relative;
+    left: 80px;
+}
+.ft4 p{
+    font-size: 19px;
+    color: black;
+    font-weight: normal;
+    line-height: 20px;
+    position: relative;
+    left: 55px;
+}
+
+.ft5{
+    padding-top: 80px;
+    position: relative;
+    left: 330px;
+}
+.ft5 h5{
+    font-size: 25px;
+    position: relative;
+    left: 80px;
+}
+.ft5 p{
+    font-size: 19px;
+    color: black;
+    font-weight: normal;
+    line-height: 20px;
+    position: relative;
+    left: 55px;
+}
+.logog i{
+    font-size: 30px;
+    padding: 11px 14px;
+    background-color: gold;
+    border-radius: 100%;
+    margin-left: 30px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.logog a{
+        margin-left: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
