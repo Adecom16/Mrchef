@@ -803,10 +803,6 @@ input::placeholder{
     font-size: 30px;
 }
 @media only screen and (max-width:768px)  {
-    body{
-        overflow: -x;
-        
-    }
     .navbar{
         display:block;
     }
@@ -817,7 +813,6 @@ input::placeholder{
     .navbar ul{
         list-style-type: none;
         display: block;
-        /* padding-left: 25px;22 */
 
     }
     
