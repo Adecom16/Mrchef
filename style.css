@@ -804,7 +804,7 @@ input::placeholder{
 }
 @media only screen and (max-width:768px)  {
     body{
-        overflow: hidden;
+        overflow: -x;
         
     }
     .navbar{
